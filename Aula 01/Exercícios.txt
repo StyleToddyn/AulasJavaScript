@@ -1,0 +1,127 @@
+{
+Crie 3 variáveis:
+
+Uma com seu nome (tipo string)
+
+Uma com sua idade (tipo number)
+
+Uma dizendo se você gosta de programar (tipo boolean)
+
+let nome = "Vitor";
+let idade = 20;
+let gostaDeProgramar = true;
+console.log(nome, idade, gostaDeProgramar);
+console.log(typeof nome);
+console.log(typeof idade);
+console.log(typeof gostaDeProgramar);
+}
+
+{
+var cidade = "Fortaleza";
+let estado = "CE";
+const pais = "Brasil";
+
+cidade = "Sobral";
+estado = "CE - atualizado";
+// pais = "Argentina"; // Isso vai dar erro
+
+console.log(cidade, estado, pais);
+}
+
+{
+// Nomes ruins
+let x = "Maria";
+let y = 30;
+let z = true;
+
+// Nomes bons
+let nomeDoCliente = "Maria";
+let idadeDoCliente = 30;
+let clienteAtivo = true;
+
+console.log(nomeDoCliente, idadeDoCliente, clienteAtivo);
+
+}
+
+{
+// let 1nome = "Erro";      // inválido
+// let meu-nome = "Erro";   // inválido
+// let const = "Erro";      // inválido (palavra reservada)
+
+let _nome = "Válido";
+let $idade = 22;
+let café = "Válido com acento";
+
+console.log(_nome, $idade, café);
+
+}
+
+{
+let temperatura = 30;
+console.log("Temperatura inicial:", temperatura);
+
+temperatura = temperatura + 5;
+console.log("Temperatura atualizada:", temperatura);
+    
+}
+
+{
+let produto = "Arroz";
+let preco = 5.99;
+let quantidade = 3;
+
+let total = preco * quantidade;
+
+console.log("Produto:", produto);
+console.log("Total a pagar:", total);
+    
+}
+
+{
+let valor = "123";
+console.log(typeof valor); // string
+
+valor = Number(valor);
+console.log(typeof valor); // number
+
+}
+
+{
+let a = 10;
+let b = 5;
+
+let soma = a + b;
+let sub = a - b;
+let mult = a * b;
+let div = a / b;
+
+console.log("Soma:", soma);
+console.log("Subtração:", sub);
+console.log("Multiplicação:", mult);
+console.log("Divisão:", div);
+
+}
+
+{
+let numero = 7;
+let resultado = numero % 2 === 0;
+
+console.log("É par?", resultado);
+
+}
+
+{
+let idade = 18;
+
+console.log("É maior de idade?", idade >= 18);
+console.log("É menor de idade?", idade < 18);
+
+}
+
+{
+let celsius = 30;
+let fahrenheit = (celsius * 9/5) + 32;
+
+console.log(`${celsius}°C = ${fahrenheit}°F`);
+
+}
